@@ -1,8 +1,8 @@
 {
-  "id": "no-frontend",
-  "name": "No Frontend",
+  "id": "convert-tools",
+  "name": "Convert Tools",
   "version": "0.0.1",
-  "description": "Plugin template with no frontend",
+  "description": "Collection of tools for encoding, decoding, and data format conversions",
   "author": {
     "name": "Caido Labs Inc.",
     "email": "dev@caido.io",
@@ -10,11 +10,10 @@
   },
   "plugins": [
     {
-      "kind": "backend",
-      "id": "backend",
-      "name": "Backend",
-      "runtime": "javascript",
-      "entrypoint": "backend/script.js"
+      "kind": "workflow",
+      "id": "base64-decode",
+      "name": "Base64 Decode",
+      "definition": "base64-decode/definition.json"
     }
   ]
 }
