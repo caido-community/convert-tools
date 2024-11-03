@@ -1,0 +1,20 @@
+{
+  "id": "no-frontend",
+  "name": "No Frontend",
+  "version": "0.0.1",
+  "description": "Plugin template with no frontend",
+  "author": {
+    "name": "Caido Labs Inc.",
+    "email": "dev@caido.io",
+    "url": "https://github.com/caido-community/create-plugin/tree/main/templates/no-frontend"
+  },
+  "plugins": [
+    {
+      "kind": "backend",
+      "id": "backend",
+      "name": "Backend",
+      "runtime": "javascript",
+      "entrypoint": "backend/script.js"
+    }
+  ]
+}
