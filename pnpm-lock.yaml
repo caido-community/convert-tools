@@ -23,6 +23,8 @@ importers:
 
   packages/base64-decode: {}
 
+  packages/base64-encode: {}
+
 packages:
 
   '@caido/plugin-manifest@0.2.0':
