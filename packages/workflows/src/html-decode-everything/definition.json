@@ -1,5 +1,5 @@
 {
-    "description": "Workflow to convert form data to JSON",
+    "description": "Workflow to decode all HTML entities including ones not supported by the default HTML decoder",
     "edition": 2,
     "graph": {
       "edges": [
@@ -41,8 +41,8 @@
           "alias": "convert_end",
           "definition_id": "caido/convert-end",
           "display": {
-            "x": -20,
-            "y": 200
+            "x": 0,
+            "y": 180
           },
           "id": 1,
           "inputs": [
@@ -61,8 +61,8 @@
           "alias": "javascript",
           "definition_id": "caido/code-js",
           "display": {
-            "x": -10,
-            "y": 100
+            "x": 0,
+            "y": 90
           },
           "id": 2,
           "inputs": [
@@ -86,7 +86,7 @@
         }
       ]
     },
-    "id": "1acf5d9f-9605-447b-a378-139e5861ba52",
+    "id": "161ededb-7869-4c80-ac61-063ad871daca",
     "kind": "convert",
-    "name": "Form Data To JSON"
+    "name": "HTML Decode Everything"
   }
