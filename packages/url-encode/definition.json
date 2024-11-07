@@ -1,5 +1,5 @@
 {
-  "description": "Base64 encode a string",
+  "description": "URL encode a string",
   "edition": 2,
   "graph": {
     "edges": [
@@ -30,7 +30,7 @@
         "definition_id": "caido/convert-start",
         "display": {
           "x": 0,
-          "y": -120
+          "y": -130
         },
         "id": 0,
         "inputs": [],
@@ -42,14 +42,14 @@
         "definition_id": "caido/convert-end",
         "display": {
           "x": 0,
-          "y": 230
+          "y": 200
         },
         "id": 1,
         "inputs": [
           {
             "alias": "data",
             "value": {
-              "data": "$base64_encode.data",
+              "data": "$url_encode.data",
               "kind": "ref"
             }
           }
@@ -58,23 +58,16 @@
         "version": "^0.1.0"
       },
       {
-        "alias": "base64_encode",
-        "definition_id": "caido/base64-encode",
+        "alias": "url_encode",
+        "definition_id": "caido/url-encode",
         "display": {
           "x": 0,
-          "y": 60
+          "y": 30
         },
         "id": 2,
         "inputs": [
           {
-            "alias": "format",
-            "value": {
-              "data": "STANDARD",
-              "kind": "string"
-            }
-          },
-          {
-            "alias": "pad",
+            "alias": "non-ascii",
             "value": {
               "data": true,
               "kind": "bool"
@@ -86,14 +79,21 @@
               "data": "$start.data",
               "kind": "ref"
             }
+          },
+          {
+            "alias": "charset",
+            "value": {
+              "data": ":/?#[]{}@$&+ ,;=%<>",
+              "kind": "string"
+            }
           }
         ],
-        "name": "Base64 Encode",
+        "name": "URL Encode",
         "version": "^0.1.0"
       }
     ]
   },
-  "id": "9c81c48e-4970-4bfc-a551-fb82a6644f39",
+  "id": "80834ac4-4284-46fe-bc59-9d81c424d399",
   "kind": "convert",
-  "name": "Base64 Encode"
+  "name": "URL Encode"
 }

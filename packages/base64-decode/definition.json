@@ -1,5 +1,5 @@
 {
-    "description": "Decode base64",
+    "description": "Base64 decode a string",
     "edition": 2,
     "graph": {
       "edges": [

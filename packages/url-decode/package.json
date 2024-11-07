@@ -1,0 +1,7 @@
+{
+  "name": "url-decode",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "mkdir -p ../../dist/url-decode/ && cp ./definition.json ../../dist/url-decode/definition.json"
+  }
+}

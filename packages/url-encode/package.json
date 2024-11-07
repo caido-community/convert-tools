@@ -1,0 +1,7 @@
+{
+  "name": "url-encode",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "mkdir -p ../../dist/url-encode/ && cp ./definition.json ../../dist/url-encode/definition.json"
+  }
+}

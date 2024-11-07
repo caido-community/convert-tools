@@ -20,6 +20,18 @@
       "id": "basesixtyfour-encode",
       "name": "Base64 Encode",
       "definition": "base64-encode/definition.json"
+    },
+    {
+      "kind": "workflow",
+      "id": "url-decode",
+      "name": "URL Decode",
+      "definition": "url-decode/definition.json"
+    },
+    {
+      "kind": "workflow",
+      "id": "url-encode",
+      "name": "URL Encode",
+      "definition": "url-encode/definition.json"
     }
   ]
 }
