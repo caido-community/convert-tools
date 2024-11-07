@@ -76,7 +76,7 @@
           {
             "alias": "code",
             "value": {
-              "data": "export function run(input, sdk) {\n  let parsed = sdk.asString(input);\n  return JSON.stringify(parsed);\n}\n",
+              "data": "",
               "kind": "string"
             }
           }

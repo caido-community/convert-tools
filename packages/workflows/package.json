@@ -1,7 +1,10 @@
 {
-  "name": "url-encode",
+  "name": "workflows",
   "version": "0.0.0",
   "scripts": {
-    "build": "bash ./scripts/build.sh"
+    "build": "node ./scripts/build.mjs"
+  },
+  "dependencies": {
+    "@caido/sdk-workflow": "0.43.1"
   }
 }
