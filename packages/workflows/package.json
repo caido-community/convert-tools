@@ -5,7 +5,8 @@
     "build": "node ./scripts/build.mjs"
   },
   "dependencies": {
-    "qs": "6.13.0"
+    "qs": "6.13.0",
+    "xml-js": "1.6.11"
   },
   "devDependencies": {
     "@types/qs": "6.9.17",

@@ -26,6 +26,9 @@ importers:
       qs:
         specifier: 6.13.0
         version: 6.13.0
+      xml-js:
+        specifier: 1.6.11
+        version: 1.6.11
     devDependencies:
       '@caido/sdk-workflow':
         specifier: 0.43.1
@@ -401,6 +404,9 @@ packages:
   safe-buffer@5.1.2:
     resolution: {integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==}
 
+  sax@1.4.1:
+    resolution: {integrity: sha512-+aWOz7yVScEGoKNd4PA10LZ8sk0A/z5+nXQG5giUO5rprX9jgYsTdov9qCchZiPIZezbZH+jRut8nPodFAX4Jg==}
+
   set-function-length@1.2.2:
     resolution: {integrity: sha512-pgRc4hJ4/sNjWCSS9AmnS40x3bNMDTknHgL5UaMBTMyJnU90EgWh1Rz+MC9eFu4BuN/UwZjKQuY/1v3rM7HMfg==}
     engines: {node: '>= 0.4'}
@@ -454,6 +460,10 @@ packages:
         optional: true
       terser:
         optional: true
+
+  xml-js@1.6.11:
+    resolution: {integrity: sha512-7rVi2KMfwfWFl+GpPg6m80IVMWXLRjO+PxTq7V2CDhoGak0wzYzFgUY2m4XJ47OGdXd8eLE8EmwfAmdjw7lC1g==}
+    hasBin: true
 
 snapshots:
 
@@ -759,6 +769,8 @@ snapshots:
 
   safe-buffer@5.1.2: {}
 
+  sax@1.4.1: {}
+
   set-function-length@1.2.2:
     dependencies:
       define-data-property: 1.1.4
@@ -794,3 +806,7 @@ snapshots:
       rollup: 4.24.3
     optionalDependencies:
       fsevents: 2.3.3
+
+  xml-js@1.6.11:
+    dependencies:
+      sax: 1.4.1
