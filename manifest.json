@@ -17,9 +17,51 @@
     },
     {
       "kind": "workflow",
-      "id": "basesixtyfour-encode",
+      "id": "base64-encode",
       "name": "Base64 Encode",
       "definition": "base64-encode/definition.json"
+    },
+    {
+      "kind": "workflow",
+      "id": "form-data-to-json",
+      "name": "Form Data to JSON",
+      "definition": "form-data-to-json/definition.json"
+    },
+    {
+      "kind": "workflow",
+      "id": "html-decode-everything",
+      "name": "HTML Decode Everything",
+      "definition": "html-decode-everything/definition.json"
+    },
+    {
+      "kind": "workflow",
+      "id": "html-encode-everything",
+      "name": "HTML Encode Everything",
+      "definition": "html-encode-everything/definition.json"
+    },
+    {
+      "kind": "workflow",
+      "id": "json-escape",
+      "name": "JSON Escape",
+      "definition": "json-escape/definition.json"
+    },
+    {
+      "kind": "workflow",
+      "id": "json-to-form-data",
+      "name": "JSON to Form Data",
+      "definition": "json-to-form-data/definition.json"
+    },
+    {
+      "kind": "workflow",
+      "id": "json-to-xml",
+      "name": "JSON to XML",
+      "definition": "json-to-xml/definition.json"
+    },
+    {
+      "kind": "workflow",
+      "id": "json-unescape",
+      "name": "JSON Unescape",
+      "definition": "json-unescape/definition.json"
     },
     {
       "kind": "workflow",
