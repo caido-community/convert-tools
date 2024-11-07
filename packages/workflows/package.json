@@ -5,6 +5,10 @@
     "build": "node ./scripts/build.mjs"
   },
   "dependencies": {
+    "qs": "6.13.0"
+  },
+  "devDependencies": {
+    "@types/qs": "6.9.17",
     "@caido/sdk-workflow": "0.43.1"
   }
 }
