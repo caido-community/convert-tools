@@ -1,0 +1,7 @@
+{
+  "name": "url-encode",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "bash ./scripts/build.sh"
+  }
+}
