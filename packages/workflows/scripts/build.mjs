@@ -83,8 +83,11 @@ const writeWorkflowDefinition = (workflowDir, definition) => {
 const generateCodeInput = (jsFile) => {
     const code = fs.readFileSync(jsFile, "utf8");
     return {
-        data: code,
-        kind: "string",
+        alias: "code",
+        value: {
+            data: code,
+            kind: "string",
+        },
     };
 }
 

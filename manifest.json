@@ -1,7 +1,7 @@
 {
   "id": "convert-tools",
   "name": "Convert Tools",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Collection of tools for encoding, decoding, and data format conversions",
   "author": {
     "name": "Caido Labs Inc.",
