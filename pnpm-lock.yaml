@@ -31,8 +31,8 @@ importers:
         version: 1.6.11
     devDependencies:
       '@caido/sdk-workflow':
-        specifier: 0.43.1
-        version: 0.43.1
+        specifier: 0.44.1
+        version: 0.44.1
       '@types/qs':
         specifier: 6.9.17
         version: 6.9.17
@@ -42,11 +42,11 @@ packages:
   '@caido/plugin-manifest@0.2.0':
     resolution: {integrity: sha512-IRN+f4H+fkwQ9AcYVHbaGgHf96fEGgCAl4frgkK+dYbu8rI+Z8SW7UAcU5eH7v5FJRcZdmS5sHVjVUjEU0hhCg==}
 
-  '@caido/quickjs-types@0.12.0':
-    resolution: {integrity: sha512-DXGSzFfqhuSxdTrBeYoMUsvCr/oYzUUeb0DeD2iV/pi4uPQD22AFhkYl8UGv03wGPFlyPSWU+lLobQmpjqNaBw==}
+  '@caido/quickjs-types@0.14.1':
+    resolution: {integrity: sha512-pqyWVkP9+cIZPrl84Xxamwj6Nv1WsjdFBL2LDG/4rBtjcj+l4psvZ+MEWqQ7vgFCaWzW/Pmh7jC2ZF6nnllNQw==}
 
-  '@caido/sdk-workflow@0.43.1':
-    resolution: {integrity: sha512-qeG3x9W9Ord7BUY1qL1kXdzTEOGTZbd5v5sblOJRE9xSLIhyBj7QHIHRwnE8hyQ/OqHmdJxxeicn3JTq+fBgqg==}
+  '@caido/sdk-workflow@0.44.1':
+    resolution: {integrity: sha512-eiCpcYeJZlrsFbdaaZxtrhzPVMwjm9wugJpnv0W+9x9Azj5Pg4MPVg8GhRzzLV9t/Lij3azbPNk+eYXi4Wz8Tw==}
 
   '@esbuild/aix-ppc64@0.20.2':
     resolution: {integrity: sha512-D+EBOJHXdNZcLJRBkhENNG8Wji2kgc9AZ9KiPr1JuZjsNtyHzrsfLRrY0tk2H2aoFu6RANO1y1iPPUCDYWkb5g==}
@@ -471,11 +471,11 @@ snapshots:
     dependencies:
       ajv: 8.17.1
 
-  '@caido/quickjs-types@0.12.0': {}
+  '@caido/quickjs-types@0.14.1': {}
 
-  '@caido/sdk-workflow@0.43.1':
+  '@caido/sdk-workflow@0.44.1':
     dependencies:
-      '@caido/quickjs-types': 0.12.0
+      '@caido/quickjs-types': 0.14.1
 
   '@esbuild/aix-ppc64@0.20.2':
     optional: true

@@ -10,6 +10,6 @@
   },
   "devDependencies": {
     "@types/qs": "6.9.17",
-    "@caido/sdk-workflow": "0.43.1"
+    "@caido/sdk-workflow": "0.44.1"
   }
 }
