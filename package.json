@@ -1,18 +1,26 @@
 {
-  "name": "convert-tools",
+  "name": "workflows-store",
   "version": "0.0.1",
-  "description": "Collection of tools for encoding, decoding, and data format conversions",
+  "description": "Collection of useful Caido workflows",
   "author": "Caido Labs Inc. <dev@caido.io>",
   "license": "MIT",
   "type": "module",
   "scripts": {
     "typecheck": "pnpm -r typecheck",
-    "build": "node scripts/clean.js && pnpm -r build && node scripts/pack.js"
+    "build": "caido-dev build && pnpm -r build"
   },
   "devDependencies": {
-    "@caido/plugin-manifest": "0.2.0",
+    "@caido-community/dev": "^0.1.3",
+    "@caido/tailwindcss": "0.0.1",
+    "@vitejs/plugin-vue": "5.2.1",
     "jszip": "3.10.1",
+    "postcss-prefixwrap": "1.51.0",
+    "tailwindcss": "3.4.13",
+    "tailwindcss-primeui": "0.3.4",
     "typescript": "5.5.4",
     "vite": "5.2.7"
+  },
+  "dependencies": {
+    "pinia": "^3.0.1"
   }
 }

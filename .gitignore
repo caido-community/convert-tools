@@ -1,3 +1,4 @@
 dist/
+dist-workflows/
 node_modules/
 .DS_Store

@@ -19,6 +19,16 @@
     "useDefineForClassFields": true,
     "isolatedModules": true,
 
-    "baseUrl": "."
-  }
+    "baseUrl": ".",
+    "types": ["@vue/runtime-core"],
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue"
+  ]
 }
