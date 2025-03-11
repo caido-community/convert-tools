@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "typecheck": "pnpm -r typecheck",
-    "build": "caido-dev build && pnpm -r build"
+    "build": "pnpm -r build && caido-dev build"
   },
   "devDependencies": {
     "@caido-community/dev": "^0.1.3",
