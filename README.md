@@ -22,25 +22,25 @@ To contribute a new workflow to the store, follow these steps:
    - `manifest.json` - Workflow metadata file (see example below)
    - `README.md` - Documentation for your workflow
 
-Example `manifest.json`:
-```json
-{
-  "author": {
-    "name": "Your Name",
-    "email": "your.email@example.com"
-  },
-  "url": "https://github.com/caido-community/workflows-store/packages/workflows/your-workflow/README.md",
-  "description": "Brief description of your workflow",
-  "id": "your-workflow-id",
-  "name": "Your Workflow Name",
-  "version": "0.0.1"
-}
-```
+   Example `manifest.json`:
+   ```json
+   {
+     "author": {
+       "name": "Your Name",
+       "email": "your.email@example.com"
+     },
+     "url": "https://github.com/caido-community/workflows-store/packages/workflows/your-workflow/README.md",
+     "description": "Brief description of your workflow",
+     "id": "your-workflow-id",
+     "name": "Your Workflow Name",
+     "version": "0.0.1"
+   }
+   ```
 
-Your `README.md` should include:
-- Author information
-- Brief description of the workflow
-- Any additional usage instructions
+   Your `README.md` should include:
+   - Author information
+   - Brief description of the workflow
+   - Any additional usage instructions
 
 6. Commit your changes
 7. Push to your fork
